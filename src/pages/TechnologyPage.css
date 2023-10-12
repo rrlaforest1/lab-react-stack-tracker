@@ -1,0 +1,53 @@
+h1 {
+  text-align: center;
+  margin: 5rem auto;
+}
+
+main.techpage {
+
+  .tech {
+    display: flex;
+    gap: 30%;
+    margin-top: 5rem;
+  }
+}
+
+.tech-image {
+  box-shadow: 1px 1px 4px #ccc;
+  padding: 3rem 4rem;
+
+
+  & img {
+    width: 12rem;
+    height: auto;
+
+  }
+}
+
+.tech-info {
+  text-align: center;
+
+  .tech-name {
+    font-size: 2.5rem;
+  }
+
+  .tech-link {
+    font-weight: 700;
+    margin: 0.7rem 0;
+    display: block;
+  }
+
+
+}
+
+.back {
+  margin: 5rem auto 3rem;
+  display: block;
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  border: 0;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
